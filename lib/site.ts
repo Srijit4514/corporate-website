@@ -21,6 +21,10 @@ export const site = {
   phone: ["+91 8981789150", "+91 8013938526"],
   email: "basana.infrastructure@gmail.com",
   whatsapp: "918981789150",
+  mapEmbedUrl:
+    "https://www.google.com/maps?q=22.871778,88.414106&z=15&output=embed",
+  mapLink:
+    "https://www.google.com/maps/place/22%C2%B052'18.4%22N+88%C2%B024'50.8%22E/@22.8692137,88.4136492,1191m/data=!3m1!1e3!4m4!3m3!8m2!3d22.871778!4d88.414106",
   mission:
     "To deliver high-quality construction, supply, and service solutions through professionalism, innovation, and customer-focused approaches while maintaining safety and sustainability standards.",
   vision:

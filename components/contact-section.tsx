@@ -91,18 +91,34 @@ export function ContactSection() {
         </div>
 
         <MotionWrapper className="mt-6" delay={0.12}>
-          <div className="flex min-h-[300px] items-center justify-center rounded-lg border border-dashed border-slate-300 bg-white p-8 text-center">
-            <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
-                Google Maps
-              </p>
-              <h3 className="mt-3 text-2xl font-semibold text-slate-950">
-                Map integration placeholder
-              </h3>
-              <p className="mt-3 max-w-xl text-sm leading-7 text-slate-600">
-                Add the verified business location or Google Maps embed here
-                when the final office or site address is ready.
-              </p>
+          <div className="overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+            <div className="flex items-center justify-between gap-4 border-b border-slate-100 px-5 py-4">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+                  Google Maps
+                </p>
+                <h3 className="mt-1 text-lg font-semibold text-slate-950">
+                  Find us on the map
+                </h3>
+              </div>
+              <a
+                href={site.mapLink}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-semibold text-primary transition-colors hover:text-primary/80"
+              >
+                Open in Google Maps
+              </a>
+            </div>
+            <div className="aspect-[16/9] min-h-[320px] w-full">
+              <iframe
+                title="Basana Infrastructure location"
+                src={site.mapEmbedUrl}
+                className="h-full w-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
             </div>
           </div>
         </MotionWrapper>
