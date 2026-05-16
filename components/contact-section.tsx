@@ -25,7 +25,7 @@ export function ContactSection() {
                 return (
                   <Card key={card.title} className="border-slate-200 bg-white">
                     <CardHeader>
-                      <span className="mb-3 flex h-11 w-11 items-center justify-center rounded-lg bg-blue-50 text-primary">
+                      <span className="mb-3 flex h-11 w-11 items-center justify-center rounded-lg bg-red-50 text-primary">
                         <Icon className="h-5 w-5" aria-hidden="true" />
                       </span>
                       <CardTitle>{card.title}</CardTitle>

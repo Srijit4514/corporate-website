@@ -27,7 +27,7 @@ export function FeatureGrid({ items, columns = "four" }: FeatureGridProps) {
           <MotionWrapper key={item.title} delay={index * 0.06}>
             <Card className="h-full border-slate-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-soft">
               <CardHeader>
-                <span className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-blue-50 text-primary">
+                <span className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-red-50 text-primary">
                   <Icon className="h-6 w-6" aria-hidden="true" />
                 </span>
                 <CardTitle>{item.title}</CardTitle>

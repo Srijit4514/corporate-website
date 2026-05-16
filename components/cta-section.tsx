@@ -10,7 +10,7 @@ export function CTASection() {
       <MotionWrapper className="container">
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-200">
+            <p className="text-sm font-semibold uppercase tracking-[0.18em] text-red-200">
               Start with clarity
             </p>
             <h2 className="mt-3 max-w-3xl text-3xl font-semibold tracking-tight md:text-4xl">

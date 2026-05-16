@@ -12,7 +12,7 @@ export function HeroSection() {
       <div className="container relative grid min-h-[calc(100vh-5rem)] items-center gap-12 py-12 lg:grid-cols-[1fr_0.9fr] lg:py-20">
         <MotionWrapper>
           <div>
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-primary">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-red-100 bg-red-50 px-4 py-2 text-sm font-semibold text-primary">
               <HardHat className="h-4 w-4" aria-hidden="true" />
               Trusted construction, supply, and support partner
             </div>
